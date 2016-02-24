@@ -42,13 +42,11 @@
 	background-color: black;
 }
 #container {
-	color: black;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 30%;
-	margin-top: 25%;
-	background-color: grey;
-	position: static;
+	.carousel-inner > .item > img,
+  	.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
 }
 #donations_paragraph {
 	color: black;
