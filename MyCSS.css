@@ -41,14 +41,12 @@
 	position: fixed;
 	background-color: black;
 }
-#events {
-	color: black;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 10%;
-	margin-top: 25%;
-	background-color: grey;
-	position: static;
+#container {
+	.carousel-inner > .item > img,
+  	.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
 }
 #donations_paragraph {
 	color: black;
@@ -229,3 +227,4 @@
 		border-bottom: none;
 	}
 }
+	  	  
