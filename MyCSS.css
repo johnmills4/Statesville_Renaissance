@@ -181,6 +181,14 @@
 	text-align: left;
 }
 
+#why_volunteer {
+	color: black;
+	background-color: white;
+	margin-left: 0%;
+	position: static;
+	text-align: left;
+}
+
 .navigation {
 	list-style: none:
 	margin: 0;
