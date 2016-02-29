@@ -23,14 +23,31 @@
 	margin-bottom: 8%;
 }
 #section {
+	position: relative;
 	color: black;
 	left: 21%;
-	top: 27%;
-	height: 50%;
-	width: 100%;
-	position: absolute;
-	background-color: white;
-	
+	top: 30%;
+	height: 60%;
+	width: 78%;
+	background-color: white;	
+}
+h3.one {
+	position: relative;
+	margin-left: 20%;
+	margin-top: 5%;
+	width: 60%;
+	height: 15%;
+	text-align: center;
+	border: 1px solid blue;
+}
+img.home {
+	position: relative;
+	height: auto;
+	width: auto%;
+	height: 30%;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
 }
 #footer {
 	color: white;
