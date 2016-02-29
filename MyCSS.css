@@ -117,8 +117,7 @@
 .overlay-fade-in:hover .button {
   -webkit-transition-delay: 0.2s; }
 #order_form {
-	text-align: right;
-	margin-right: 10%;
+	left: 5%;
 	margin-top: 10%;
 }
 #t-shirt {
