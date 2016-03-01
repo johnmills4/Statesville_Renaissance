@@ -26,6 +26,15 @@
 	position: relative;
 	color: black;
 	left: 21%;
+<<<<<<< HEAD
+	top: 27%;
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	background-color: white;
+	margin-right: 30%;
+	
+=======
 	top: 30%;
 	height: 60%;
 	width: 78%;
@@ -48,6 +57,7 @@ img.home {
 	margin-top: 5%;
 	margin-right: 5%;
 	margin-bottom: 5%;
+>>>>>>> 07b372a0a8bf9f13c5dd7cf25e03270698f08939
 }
 #footer {
 	color: white;
