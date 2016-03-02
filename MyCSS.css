@@ -27,8 +27,13 @@
 	color: black;
 	left: 21%;
 	top: 27%;
+<<<<<<< HEAD
 	height: 79%;
 	width: 70%;
+=======
+	height: 75%;
+	width: 80%;
+>>>>>>> b75d608a193da10dc960fa2f43a9839d555bba7b
 	position: absolute;
 	background-color: white;
 	margin-right: 30%;	
@@ -46,8 +51,13 @@ h3.one {
 }
 img.home {
 	position: relative;
+<<<<<<< HEAD
 	height: 26%;
 	width: 40%;
+=======
+	height: 46%;
+	width: 60%;
+>>>>>>> b75d608a193da10dc960fa2f43a9839d555bba7b
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
@@ -135,18 +145,22 @@ img.home {
   -webkit-transition-delay: 0.1s; }
 .overlay-fade-in:hover .button {
   -webkit-transition-delay: 0.2s; }
+
 #order_form {
-	left: 5%;
-	margin-top: 10%;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 2%;
+	height: 15%
+	width: 30%;
 }
+
 #t-shirt {
 	color:black;
-	margin-top: 20%;
+	top: 10%;
 	margin-left: 0%;
 	margin-right: 0%;
-	
 	background-color: white;
-	position: static;
+	position: relative;
 }
 #long_sleeve {
 	color:black;
