@@ -31,6 +31,10 @@
 	width: 80%;
 	height: 79%;
 	width: 70%;
+	height: 79%;
+	width: 70%;
+	height: 75%;
+	width: 80%;
 	position: absolute;
 	background-color: white;
 	margin-right: 30%;	
@@ -50,8 +54,6 @@ img.home {
 	position: relative;
 	height: 46%;
 	width: 60%;
-	height: 26%;
-	width: 40%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
