@@ -27,10 +27,20 @@
 	color: black;
 	left: 21%;
 	top: 27%;
+<<<<<<< HEAD
 	height: 75%;
 	width: 80%;
 	height: 79%;
 	width: 70%;
+=======
+<<<<<<< HEAD
+	height: 79%;
+	width: 70%;
+=======
+	height: 75%;
+	width: 80%;
+>>>>>>> b75d608a193da10dc960fa2f43a9839d555bba7b
+>>>>>>> 1d1d2e86049b7e60b75c688de23d27a595d63f49
 	position: absolute;
 	background-color: white;
 	margin-right: 30%;	
@@ -48,10 +58,20 @@ h3.one {
 }
 img.home {
 	position: relative;
+<<<<<<< HEAD
 	height: 46%;
 	width: 60%;
 	height: 26%;
 	width: 40%;
+=======
+<<<<<<< HEAD
+	height: 26%;
+	width: 40%;
+=======
+	height: 46%;
+	width: 60%;
+>>>>>>> b75d608a193da10dc960fa2f43a9839d555bba7b
+>>>>>>> 1d1d2e86049b7e60b75c688de23d27a595d63f49
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
