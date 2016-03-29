@@ -123,6 +123,7 @@
       .middle{
  	    display: flex;
   		min-height: 500px;
+  		order: 4;
 	  }
 	  .middle_right{
   	    display: flex;
