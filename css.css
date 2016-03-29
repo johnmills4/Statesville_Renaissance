@@ -3,10 +3,17 @@
 }
 
 #footer{
+  display: flex;
   height: 10%;
   width: 100%;
   background-color: #f0f0f0;
   position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  justify-content: center;
+  align-content: center;
 }
 
 .c3,.c4{
