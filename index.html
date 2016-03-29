@@ -9,38 +9,37 @@
 </head> 
 
 <body>
-    <div class="container">  
-      <div class="nav">  
-        <div class="c0">
-          <ul class="menu">
-		    <li><a href="#">Home</a></li>
-		    <li><a href="#">Apparel</a></li>
-		    <li><a href="#">Volunteer</a></li>
-		    <li><a href="#">Donations</a></li>
-		    <li><a href="#">Events</a></li>
-	      </ul>
-        </div>
-        
-        <div class="dropdown">
-          <input type="image" src="Hamburger.png" alt="dropmenu" width="60" height="60" onclick="myFunction()" class="dropbtn">
-  		  <div class="dropdown-content" id="myDropdown">
-      		<a href="#">Home</a>
-      		<a href="#">Staff</a>
-      		<a href="#">Apparel</a>
-     	    <a href="#">Volunteer</a>
-     	    <a href="#">Donations</a>
-     	    <a href="#">Events</a>
-    	  </div>
-    	</div>
-    	
-	    <div class="c2">
-	      <a class="button-donate" href="#">donate</a>
-	      <a class="button-order" href="#">order</a>
-	    </div>
+  <div id="container">  
+    <div id="nav">  
+      <div class="c0">
+        <ul class="menu">
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Apparel</a></li>
+		  <li><a href="#">Volunteer</a></li>
+		  <li><a href="#">Donations</a></li>
+		  <li><a href="#">Events</a></li>
+	    </ul>
       </div>
+        
+      <div class="dropdown">
+        <input type="image" src="Hamburger.png" alt="dropmenu" width="60" height="60" onclick="myFunction()" class="dropbtn">
+  	    <div class="dropdown-content" id="myDropdown">
+      	  <a href="#">Home</a>
+      	  <a href="#">Staff</a>
+      	  <a href="#">Apparel</a>
+     	  <a href="#">Volunteer</a>
+     	  <a href="#">Donations</a>
+     	  <a href="#">Events</a>
+        </div>
+      </div>
+    	
+	  <div class="c2">
+	    <a class="button-donate" href="#">donate</a>
+	    <a class="button-order" href="#">order</a>
+	  </div>
+    </div>
       
-      <hr>
-      
+    <div id="content">
       <div class="c3">
         <p>SHS Renaissance</p>
       </div>
@@ -64,8 +63,7 @@
       </div>
         
         
-      <div class="middle">
-        
+      <div class="middle"> 
         <aside>
           <ul>
 		    <li class="menu-item"><b>President:</b> Mary Mills</li>
@@ -91,34 +89,34 @@
 			</h3>
           </div>
       </div>
-        
+      </div>
+      <div id="footer">
+        <p>Contact Information: Mary Mills-President. Email:<a href="mailto:marymills@bellsouth.net">
+	    marymills@bellsouth.net</a></p>
+      </div>
          
-    </div>
-    <div class="footer">
-      <p>Contact Information: Mary Mills-President. Email:<a href="mailto:marymills@bellsouth.net">
-	  marymills@bellsouth.net</a></p>
     </div>
     
     <script>
-	/* When the user clicks on the button, 
-	toggle between hiding and showing the dropdown content */
-	function myFunction() {
-    	document.getElementById("myDropdown").classList.toggle("show");
-	}
+	  /* When the user clicks on the button, 
+	  toggle between hiding and showing the dropdown content */
+	  function myFunction() {
+    	  document.getElementById("myDropdown").classList.toggle("show");
+	  }
 
-	// Close the dropdown if the user clicks outside of it
-	window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
+	  // Close the dropdown if the user clicks outside of it
+	  window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
 
-    	var dropdowns = document.getElementsByClassName("dropdown-content");
-    	for (var d = 0; d < dropdowns.length; d++) {
+    	  var dropdowns = document.getElementsByClassName("dropdown-content");
+    	  for (var d = 0; d < dropdowns.length; d++) {
       		var openDropdown = dropdowns[d];
-      	if (openDropdown.classList.contains('show')) {
+      	  if (openDropdown.classList.contains('show')) {
         	openDropdown.classList.remove('show');
-      	}
-    	}
-  	  }
-	}
+      	  }
+    	  }
+  	    }
+	  }
 	</script>
   </body>
 
