@@ -104,7 +104,6 @@
     height: 15%;
     width: 50%;
     order: 1;
-    justify-content: left;
   }
   .c2{
     height: 15%;
@@ -145,7 +144,7 @@
     @media (min-width: 46em) {
       
       .nav{
-        flex-flow row wrap;
+        flex-flow: row wrap;
       }
       .header{
         display: flex;
