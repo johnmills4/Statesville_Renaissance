@@ -10,7 +10,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  position: relative;
   justify-content: center;
   align-content: center;
 }
@@ -64,7 +64,6 @@
 }
 
 #nav{
-  display: flex;
   flex-flow: row wrap;
 }
 .dropbtn{
@@ -202,7 +201,7 @@
       .c0{
         display: flex;
         width: 70%;
-        order: 1
+        order: 1;
       }
       .dropdown {
         display: none;

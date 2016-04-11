@@ -3,149 +3,214 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="intitial-scale=1.0, width=device-width" />
-	<link rel="stylesheet" type="text/css" href="MyCSS.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ApparelCSS.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div id="header">
-	<h1>Statesville High School Renaissance Foundation Apparel Page</h1>
-</div>
 
-<nav>
-	<ul class="navigation">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="apparel.html">Apparel</a></li>
-		<li><a href="volunteer.html">Volunteer</a></li>
-		<li><a href="donations.html">Donations</a></li>
-		<li><a href="Events.html">Events</a></li>
-	</ul>
-</nav>		
+  <div id="container">  
+    <div id="nav">  
+      <div class="c0">
+        <ul class="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="apparel.html">Apparel</a></li>
+		  <li><a href="#">Volunteer</a></li>
+		  <li><a href="#">Donations</a></li>
+		  <li><a href="#">Events</a></li>
+	    </ul>
+      </div>
+        
+      <div class="dropdown">
+        <input type="image" src="Hamburger.png" alt="dropmenu" width="60" height="60" onclick="myFunction()" class="dropbtn">
+  	    <div class="dropdown-content" id="myDropdown">
+      	  <a href="index.html">Home</a>
+      	  <a href="apparel.html">Staff</a>
+      	  <a href="#">Apparel</a>
+     	  <a href="#">Volunteer</a>
+     	  <a href="#">Donations</a>
+     	  <a href="#">Events</a>
+        </div>
+      </div>
+    	
+	  <div class="c2">
+	    <form action="order_form.pdf">
+	      <button type="submit" class="orderform">Download Order Form</button>
+	    </form>
+	  </div>
+    </div>	<!-- nav -->
+    
+    
+    
+    
+    
+    <div id="header">
+      <p class="header">Apparel</p>
+    </div> <!-- header -->
+    
+    
+<!-- Still need to resize the images, then work on the layout for the wide-screen desktop
 
-<div id="order_form">
-	<!--<form method="get" action="order_form.pdf">-->
-	<form method="get" action="shs_order_form.pdf">	
-	<button type="submit">Download Order Form</button>
-	<a href="shs_order_form.pdf"><img src="shs_order_form.pdf"/></a>
-</div>
-
-<!--I like this set-up where you hover over the image to see the details. I can even 
-configure the button to link to an order form. I still have to fix some of the sizing, but its a start. 
-Let me know what you think.
+wide-screen: x x x x
+			 x x x x
+			 x x x x
 -->
+    
+    <div id="section">
+      <div class="i1">
+	      <div class="image-wrapper overlay-fade-in">
+	        <picture>
+	          <source srcset="tshirt.png" media="(min-width: 46em)">
+	          <img src="tshirt.png" alt="tshirt">
+	        </picture>
+            <div class="image-overlay-content">
+              <h2>T-shirt</h2>
+              <p class="price">$12.00</p>
+              <a href="#" class="button">Order</a>
+            </div>
+        </div>
+      </div> 
+    
+      <div class="i2">
+        <div class="small-4 columns">
+	      <div class="image-wrapper overlay-fade-in">
+	        <picture>
+	          <source srcset="longsleevetshirt.png" media="(min-width: 46em)">
+	          <img src="longsleevetshirt.png" alt="longsleevetshirt">
+	        </picture>
+            <div class="image-overlay-content">
+              <h2>Long-sleeve T-shirt</h2>
+              <p class="price">$18.00</p>
+        	  <a href="#" class="button">Order</a>
+      	    </div>
+    	  </div>
+        </div>
+	  </div>
+	  
+	  <div class="i3">
+	    <div class="small-4 columns">
+    	  <div class="image-wrapper overlay-fade-in">
+      	    <picture>
+	          <source srcset="sweatshirt.png" media="(min-width: 46em)">
+	          <img class="sweatshirt" src="sweatshirt.png" alt="sweatshirt">
+	        </picture>
+            <div class="image-overlay-content"> 
+        	  <h2>Hoodie</h2>
+        	  <p class="price">$22.00</p>
+        	  <a href="#" class="button">Order</a>
+      	    </div>
+    	  </div>
+        </div>
+	  </div>
 
-<!--I have updated the footer and I have put the order form in Github. Mom wants the order form to be at
- the very top of the apparel page rather than the bottom-->
+      <div class="i4">
+	    <div class="small-4 columns">
+    	  <div class="image-wrapper overlay-fade-in">
+    	    <picture>
+	          <source srcset="crewsweatshirt.png" media="(min-width: 46em)">
+	          <img src="crewsweatshirt.png" alt="sweatshirt">
+	        </picture>
+      	    <div class="image-overlay-content">
+              <h2>Crew Sweatshirt</h2>
+              <p class="price">$15.00</p>
+              <a href="#" class="button">Order</a>
+            </div>
+    	  </div>
+        </div>
+	  </div>
+
+	  <div class="i5">
+	    <div class="small-4 columns">
+    	  <div class="image-wrapper overlay-fade-in">
+    	    <picture>
+	          <source srcset="baseballcap.png" media="(min-width: 46em)">
+	          <img src="baseballcap.png" alt="baseballcap">
+	        </picture>
+            <div class="image-overlay-content">
+        	  <h2>Grey Baseball Cap</h2>
+        	  <p class="price">$15.00</p>
+        	  <a href="#" class="button">Order</a>
+      	    </div>
+    	  </div>
+        </div>
+	  </div>
+
+	  <div class="i6">
+	    <div class="small-4 columns">
+    	  <div class="image-wrapper overlay-fade-in">
+    	    <picture>
+	          <source srcset="magnet.png" media="(min-width: 46em)">
+	          <img src="magnet.png" alt="magnet">
+	        </picture>
+      	    <div class="image-overlay-content">
+        	  <h2>SHS Magnet</h2>
+        	  <p class="price">$3.00</p>
+        	  <a href="#" class="button">order</a>
+      	    </div>
+		  </div>
+	    </div>
+	  </div>
+
+	  <div class="i7">
+	    <div class="small-4 columns">
+		  <div class="image-wrapper overlay-fade-in">
+		    <picture>
+	          <source srcset="shsbag.png" media="(min-width: 46em)">
+	          <img src="shsbag.png" alt="shsbag">
+	        </picture>
+		    <div class="image-overlay-content">
+		      <h2>Sling Bag</h2>
+			  <p class="price">$10.00</p>
+			  <a href="#" class="button">order</a>
+		    </div>
+		  </div>
+	    </div>
+      </div>
+      
+      <div class="i8">
+	    <div class="small-4 columns">
+		  <div class="image-wrapper overlay-fade-in">
+		    <picture>
+	          <source srcset="longsleevetshirt_blue.png" media="(min-width: 46em)">
+	          <img src="longsleevetshirt_blue.png" alt="shsbag">
+	        </picture>
+		    <div class="image-overlay-content">
+		      <h2>Long-sleeve t-shirt blue</h2>
+			  <p class="price">$10.00</p>
+			  <a href="#" class="button">order</a>
+		    </div>
+		  </div>
+	    </div>
+      </div>
+    </div>  <!-- section -->
  
  
+ 	<!-- still need to fix footer positioning -->
+    <div id="footer">
+	  <p>Contact Information: Mary Mills-President Email:<a href="mailto:marymills@bellsouth.net">
+	  marymills@bellsouth.net</a></p>
+    </div> <!-- footer -->
+  </div> <!-- container -->
+  <script>
+	  /* When the user clicks on the button, 
+	  toggle between hiding and showing the dropdown content */
+	  function myFunction() {
+    	  document.getElementById("myDropdown").classList.toggle("show");
+	  }
 
-<div class="small-4 columns">
+	  // Close the dropdown if the user clicks outside of it
+	  window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
 
-	<div class="image-wrapper overlay-fade-in">
-      
-      <img src="tshirt.png" style="height:600px;"/>
-      
-      <div class="image-overlay-content">
-        <h2>T-shirt</h2>
-        <p class="price">$12.00</p>
-        <a href="#" class="button">Order</a>
-      </div>
-    
-    </div>
-  
-</div> 
-<div class="small-4 columns">
-
-	<div class="image-wrapper overlay-fade-in">
-      
-      <img src="longsleevetshirt.png" style="height:600px;"/>
-      
-      <div class="image-overlay-content">
-        <h2>Long-sleeve T-shirt</h2>
-        <p class="price">$18.00</p>
-        <a href="#" class="button">Order</a>
-      </div>
-    </div>
-    
-</div>
-</div> 
-<div class="small-4 columns">
-
-    <div class="image-wrapper overlay-fade-in">
-      
-      <img src="sweatshirt.png" style="height:600px;" />
-      
-      <div class="image-overlay-content">
-        <h2>Hoodie</h2>
-        <p class="price">$22.00</p>
-        <a href="#" class="button">Order</a>
-      </div>
-    
-    </div>
-  
-</div>
-<div class="small-4 columns">
-
-    <div class="image-wrapper overlay-fade-in">
-      
-      <img src="crewsweatshirt.png" style="height:600px;"/>
-      
-      <div class="image-overlay-content">
-        <h2>Crew Sweatshirt</h2>
-        <p class="price">$15.00</p>
-        <a href="#" class="button">Order</a>
-      </div>
-    
-    </div>
-  
-</div>
-<div class="small-4 columns">
-
-    <div class="image-wrapper overlay-fade-in">
-      
-      <img src="baseballcap.png" style="height:600px;"/>
-      
-      <div class="image-overlay-content">
-        <h2>Grey Baseball Cap</h2>
-        <p class="price">$15.00</p>
-        <a href="#" class="button">Order</a>
-      </div>
-    
-    </div>
-  
-</div>
-<div class="small-4 columns">
-
-    <div class="image-wrapper overlay-fade-in">
-      
-      <img src="magnet.png" style="height:600px;"/>
-      
-      <div class="image-overlay-content">
-        <h2>SHS Magnet</h2>
-        <p class="price">$3.00</p>
-        <a href="#" class="button">order</a>
-      </div>
-	</div>
-</div>
-<div class="small-4 columns">
-		
-		<div class="image-wrapper overlay-fade-in">
-		
-			<img src="shsbag.png" style="height:600px;"/>
-			
-			<div class="image-overlay-content">
-			<h2>Sling Bag</h2>
-			<p class="price">$10.00</p>
-			<a href="#" class="button">order</a>
-			</div>
-		</div>
-</div>
-
-<div id="footer">
-	<p>Contact Information: Mary Mills-President Email:<a href="mailto:marymills@bellsouth.net">
-	marymills@bellsouth.net</a></p>
-</div>
+    	  var dropdowns = document.getElementsByClassName("dropdown-content");
+    	  for (var d = 0; d < dropdowns.length; d++) {
+      		var openDropdown = dropdowns[d];
+      	  if (openDropdown.classList.contains('show')) {
+        	openDropdown.classList.remove('show');
+      	  }
+    	  }
+  	    }
+	  }
+	</script>
 </body>
 </html>
