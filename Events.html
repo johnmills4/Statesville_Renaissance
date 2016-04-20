@@ -1,69 +1,276 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="MyCSS.css">
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Statesville High School Renaissance Events</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="MyCSS.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="eventsCSS.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div id="header">
-	<h1>Statesville High School Renaissance Foundation Events Page</h1>
-</div>
-
-<nav>
-	<ul class="navigation">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="apparel.html">Apparel</a></li>
-		<li><a href="volunteer.html">Volunteer</a></li>
-		<li><a href="donations.html">Donations</a></li>
-		<li><a href="Events.html">Events</a></li>
-	</ul>
-</nav>	
-
-
-<div class="container">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="http://cdn.paper4pc.com/images/kataklysm-death-metal-heavy-hard-rock-concert-concerts-guitar-guitars-s-wallpaper-1.jpg" alt="Chania" width="100%" height="30%">
+  <div id="container">  
+    <nav>  
+      <div class="c0">
+        <ul class="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="apparel.html">Apparel</a></li>
+		  <li><a href="#">Volunteer</a></li>
+		  <li><a href="#">Donations</a></li>
+		  <li><a href="Events.html">Events</a></li>
+	    </ul>
       </div>
-
-      <div class="item">
-        <img src="https://s-media-cache-ak0.pinimg.com/736x/15/81/a4/1581a453ec8670ef49662f1f7c3198a2.jpg" alt="Chania" width="100%" height="30%">
+        
+      <div class="dropdown">
+        <input type="image" src="Hamburger.png" alt="dropmenu" width="60" height="60" onclick="myFunction()" class="dropbtn">
+  	    <div class="dropdown-content" id="myDropdown">
+      	  <a href="index.html">Home</a>
+      	  <a href="#">Staff</a>
+      	  <a href="apparel.html">Apparel</a>
+     	  <a href="#">Volunteer</a>
+     	  <a href="#">Donations</a>
+     	  <a href="Events.html">Events</a>
+        </div>
       </div>
+    	
+	  <div class="c2">
+	    <h3>Menu</h3>
+	  </div>
+    </nav>	<!-- nav -->
     
-      <div class="item">
-        <img src="http://vb.hudl.com/2241/5208/73127/815632/VW/004/gcg_XL.jpg?v=898C1AB609F4D208" alt="Flower" width="100%" height="30%">
-      </div>
+    <header>
+      <p class="header">Events</p>
+    </header> <!-- header -->
+    
+    
+    <!-- card module for widescreen, using chunking to separate out the events
+    	 For mobile devices, use the slideshow with minimal text describing it above -->
+    
+    <section>
+      <div class="c3">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
 
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://cdn.paper4pc.com/images/kataklysm-death-metal-heavy-hard-rock-concert-concerts-guitar-guitars-s-wallpaper-1.jpg" alt="rock concert" style="width=100%;height:100%">
+            </div>
+
+            <div class="item">
+              <img src="https://s-media-cache-ak0.pinimg.com/736x/15/81/a4/1581a453ec8670ef49662f1f7c3198a2.jpg" alt="teacher lunches" style="width:100%;height:100%">
+            </div>
+    
+            <div class="item">
+              <img src="http://vb.hudl.com/2241/5208/73127/815632/VW/004/gcg_XL.jpg?v=898C1AB609F4D208" alt="SHS football game" style="width:100%;height:100%">
+            </div>
+          
+            <div class="item">
+              <img src="http://nhsc.np.sportspilot.com/portals/100823/NHSC%20FINE%20DESIGNS%20BOOTH%20PHOTO.jpg" alt="selling apparel" style="width:100%;height:100%">
+            </div>
+          
+            <div class="item">
+              <img src="http://www.selah.k12.wa.us/shs/VikingCrew/images/Concessions2011.jpg" alt="selling concessions" style="width:100%;height:100%">
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      	      <span class="sr-only">Previous</span>
+    	    </a>
+   		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+     		  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      	      <span class="sr-only">Next</span>
+    	    </a>
+          </div>
+        </div> 
+        <br>
+        <div class="container">
+   		  <div class="row">
+   		    <div class="col-md-4 col-sm-6">
+   		      <div class="well"> <!-- listserv sign-up -->
+                <form class="form">
+                <h4>Sign-up for our listserv</h4>
+                <div class="input-group text-center">
+                  <input type="text" class="form-control input-lg" placeholder="Enter your email address">
+                  <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+                </div>
+                </form>
+              </div>
+   		      <div class="well"> 
+                <form class="form-horizontal" >
+                <h4>Ask a question</h4>
+               	<div class="form-group" style="padding:14px;">
+                  <textarea class="form-control" placeholder="Enter question here"></textarea>
+              	</div>
+                <button class="btn btn-success pull-right" type="button">Post</button><ul class="list-inline"><li><a href="#"><i class="glyphicon glyphicon-align-left"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-center"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-right"></i></a></li></ul>
+            	</form>
+        	  </div>
+        	</div>
+          </div>
+        </div>
+      </div> <!-- c3 -->
+        <div class="cards">
+          <div class="container" id="main">
+   		    <div class="row">
+   			  <div class="col-md-4 col-sm-6">
+        	    <div class="panel panel-default"> <!-- Rock concert -->
+           		  <div class="panel-heading"><a href="http://cdn.paper4pc.com/images/kataklysm-death-metal-heavy-hard-rock-concert-concerts-guitar-guitars-s-wallpaper-1.jpg" class="pull-right">View img</a> <h4>Rock Concert</h4></div>
+   			      <div class="panel-body">
+              	    <img src="http://cdn.paper4pc.com/images/kataklysm-death-metal-heavy-hard-rock-concert-concerts-guitar-guitars-s-wallpaper-1.jpg" alt="rock concert" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		Once a year, SHS Renaissance puts together a rock concert for the students where local bands, including student bands and teacher bands, will play for those who qualify for renaissance.
+              		<hr>
+              		Show Dates:
+             	    <ul class="list-unstyled"><li>4/18/2015</li><li>4/23/2016</li><li>4/2017 - tbd</li></ul>
+           		  </div>
+				</div>
+        		<div class="panel panel-default"> <!-- concessions -->
+           		  <div class="panel-heading"><a href="http://www.selah.k12.wa.us/shs/VikingCrew/images/Concessions2011.jpg" class="pull-right">View img</a> <h4>Concessions</h4></div>
+   			      <div class="panel-body">
+              	    <img src="http://www.selah.k12.wa.us/shs/VikingCrew/images/Concessions2011.jpg" alt="concessions stand" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		The concessions stand for athletic events is run by volunteers with the proceeds going to the athletic booster program. Renaissance volunteers several times a season in order to assist the boosters club.
+           		  </div>
+				</div>
+        		<div class="panel panel-default"> <!-- teacher lunches -->
+           		  <div class="panel-heading"><a href="https://s-media-cache-ak0.pinimg.com/736x/15/81/a4/1581a453ec8670ef49662f1f7c3198a2.jpg" class="pull-right">View img</a> <h4>teacher lunches</h4></div>
+   			      <div class="panel-body">
+              	    <img src="https://s-media-cache-ak0.pinimg.com/736x/15/81/a4/1581a453ec8670ef49662f1f7c3198a2.jpg" alt="teacher lunches" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		Twice a month, the members of Renaissance prepare lunch for the teachers. We feel that it is important to show our teachers appreciation and hopefully small gestures such as lunch can go a long way in that effort.
+              		<hr>
+              		Get involved! Join our listserv to find out how you can help with the lunch preparations.
+           		  </div>
+				</div>
+			  </div> <!-- col-md-4 col-sm-6 -->
+				
+  			  <div class="col-md-4 col-sm-6">
+                <div class="well"> <!-- listserv sign-up -->
+                  <form class="form">
+                  <h4>Sign-up for our listserv</h4>
+                  <div class="input-group text-center">
+                    <input type="text" class="form-control input-lg" placeholder="Enter your email address">
+                    <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+                  </div>
+                  </form>
+                </div>
+                <div class="panel panel-default"> <!-- football games -->
+           		  <div class="panel-heading"><a href="http://vb.hudl.com/2241/5208/73127/815632/VW/004/gcg_XL.jpg?v=898C1AB609F4D208" class="pull-right">View img</a> <h4>Sports</h4></div>
+   			      <div class="panel-body">
+              	    <img src="http://vb.hudl.com/2241/5208/73127/815632/VW/004/gcg_XL.jpg?v=898C1AB609F4D208" alt="football game" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		The Renaissance Foundation is active throughout the year with the athletic department. We frequently volunteer at sporting events by helping organize events, selling apparel, and volunteering for the concession stand. 
+              		<hr>
+              		Schedule:
+             	    <ul class="list-unstyled">
+             	      <li><a href="http://www.maxpreps.com/high-schools/statesville-greyhounds-(statesville,nc)/football/schedule.htm">Football</a></li>
+             	      <li><a href="http://www.maxpreps.com/high-schools/statesville-greyhounds-(statesville,nc)/soccer/home.htm">Mens Soccer</a></li>
+             	      <li><a href="http://www.maxpreps.com/high-schools/statesville-greyhounds-(statesville,nc)/girls-soccer-spring/home.htm">Womens Soccer</a></li>
+             	      <li><a href="http://www.maxpreps.com/high-schools/statesville-greyhounds-(statesville,nc)/basketball/schedule.htm">Basketball</a></li>
+             	      <li><a href="http://www.maxpreps.com/high-schools/statesville-greyhounds-(statesville,nc)/baseball/schedule.htm">Baseball</a></li>
+             	     </ul>
+           		  </div>
+				</div>
+      	        <div class="panel panel-default"> <!-- selling apparel -->
+           		  <div class="panel-heading"><a href="http://nhsc.np.sportspilot.com/portals/100823/NHSC%20FINE%20DESIGNS%20BOOTH%20PHOTO.jpg" class="pull-right">View img</a> <h4>Selling Apparel</h4></div>
+   			      <div class="panel-body">
+              	    <img src="http://nhsc.np.sportspilot.com/portals/100823/NHSC%20FINE%20DESIGNS%20BOOTH%20PHOTO.jpg" alt="selling apparel" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		SHS Renaissance is the primary vendor for SHS related apparel and accessories. We typically sell apparel at every home football game. Look for our booth at the next game!
+              		<hr>
+              		Our current in stock selection is shown on our apparel page <a href="http://johnmills4.github.io/Statesville_Renaissance/apparel.html">here</a>
+           		  </div>
+				</div>
+  	          </div> <!-- col-md-4 col-sm-6 -->
+  	          
+  	          <div class="col-md-4 col-sm-6">
+  	            <div class="well"> 
+             	  <form class="form-horizontal">
+                  <h4>Ask a question</h4>
+               	  <div class="form-group" style="padding:14px;">
+                	<textarea class="form-control" placeholder="Enter question here"></textarea>
+              	  </div>
+              	  <button class="btn btn-success pull-right" type="button">Post</button><ul class="list-inline"><li><a href="#"><i class="glyphicon glyphicon-align-left"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-center"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-right"></i></a></li></ul>
+            	  </form>
+        		</div>
+      	        <div class="panel panel-default"> <!-- gift bag -->
+           		  <div class="panel-heading"><a href="https://s-media-cache-ak0.pinimg.com/736x/a0/2c/18/a02c18469bb665a14767e84df3987403.jpg" class="pull-right">View img</a> <h4>Goody bag</h4></div>
+   			      <div class="panel-body">
+              	    <img src="https://s-media-cache-ak0.pinimg.com/736x/a0/2c/18/a02c18469bb665a14767e84df3987403.jpg" alt="goody bag" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		After each semester, students who qualify for Renaissance receive a gift bag with assorted goodies. These treats are distributed to students during homeroom block.
+           		  </div>
+				</div>
+      	        <div class="panel panel-default"> <!-- t-shirt design -->
+           		  <div class="panel-heading"><a href="http://timage4.prepsportswear.com/GetImage.iaspx?type=1&scale=58&schoolid=47538&p=5180&pc=royal&d=50468&up_pp=Enter%20Name%7C34%7C2016&up_ss=m&ver=0&r=0" class="pull-right">View img</a> <h4>t-shirt design</h4></div>
+   			      <div class="panel-body">
+              	    <img src="http://timage4.prepsportswear.com/GetImage.iaspx?type=1&scale=58&schoolid=47538&p=5180&pc=royal&d=50468&up_pp=Enter%20Name%7C34%7C2016&up_ss=m&ver=0&r=0" alt="t-shirt design" class="img-circle pull-right">
+             		<div class="clearfix"></div>
+             		Each year, Renaissance hosts a t-shirt design competition where students may submit their own designs. A winner is selected from the submitted design, and then featured as the yearly t-shirt that all renaissance students receive at the end of the year.
+              		<hr>
+              		Have a design?
+              		Submit it by sending an email to <a href="mailto:marymills@bellsouth.net">marymills@bellsouth.net</a> with the design attached.
+           		  </div>
+				</div>
+  	          </div> <!-- col-md-4 col-sm-6 -->
+  	          
+            </div> <!-- row -->
+          </div> <!-- container -->
+        </div> <!-- cards -->
+        
+      <div class="c5">
+        <p>This will contain info about the teacher lunches</p>
+        <img src="https://s-media-cache-ak0.pinimg.com/736x/15/81/a4/1581a453ec8670ef49662f1f7c3198a2.jpg" alt="teacher lunches" style="width:100%;height:100%">
+      </div> 
       
+    </section>  <!-- section -->
+    
+    <article>
+      <div class="c4">
+        <h3>Take a look at some of the events that we help put on!</h3>
+        <p class="1">Here at the Renaissance Foundation, we believe that it is important to get involved with the school community. We help to host a multitude of events including a yearly student rock concert, 
+        monthly teacher lunches, and selling both food and apparel at sporting events.</p>  
+      </div>
+    </article>
+ 
+    <footer>
+	  <p>Contact Information: Mary Mills-President Email:<a href="mailto:marymills@bellsouth.net">
+	  marymills@bellsouth.net</a></p>
+    </footer> <!-- footer -->
+    
+  </div> <!-- container -->
+  
+  <script>
+	  /* When the user clicks on the button, 
+	  toggle between hiding and showing the dropdown content */
+	  function myFunction() {
+    	  document.getElementById("myDropdown").classList.toggle("show");
+	  }
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+	  // Close the dropdown if the user clicks outside of it
+	  window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
 
-</body>
+    	  var dropdowns = document.getElementsByClassName("dropdown-content");
+    	  for (var d = 0; d < dropdowns.length; d++) {
+      		var openDropdown = dropdowns[d];
+      	  if (openDropdown.classList.contains('show')) {
+        	openDropdown.classList.remove('show');
+      	  }
+    	  }
+  	    }
+	  }
+	</script>
 </html>
