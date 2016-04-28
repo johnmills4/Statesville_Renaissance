@@ -3,50 +3,129 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="MyCSS.css">
+	<link rel="stylesheet" type="text/css" href="volunteerCSS.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div id="header">
-	<h1>Statesville High School Renaissance Foundation Volunteer Page</h1>
-</div>
+  <div id="Container">
+    <nav>
+	  <div class="c0">
+        <ul class="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="staff.html">Staff</a></li>
+		  <li><a href="apparel.html">Apparel</a></li>
+		  <li><a href="volunteer.html">Volunteer</a></li>
+		  <li><a href="Events.html">Events</a></li>
+	    </ul>
+      </div>
+        
+      <div class="dropdown">
+        <input type="image" src="Hamburger.png" alt="dropmenu" width="60" height="60" onclick="myFunction()" class="dropbtn">
+  	    <div class="dropdown-content" id="myDropdown">
+      	  <a href="index.html">Home</a>
+      	  <a href="staff.html">Staff</a>
+      	  <a href="apparel.html">Apparel</a>
+     	  <a href="volunteer.html">Volunteer</a>
+     	  <a href="Events.html">Events</a>
+        </div>
+      </div>
+    </nav>	
+    
+    <header>
+	  <p class="header">Get Involved! Volunteer!</p>
+    </header>
 
-<div id="nav">
-	<ul class="navigation">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="apparel.html">Apparel</a></li>
-		<li><a href="volunteer.html">Volunteer</a></li>
-		<li><a href="donations.html">Donations</a></li>
-		<li><a href="events.html">Events</a></li>
-	</ul>
-</div>	
+    <div class="cards">
+      <div class="container" id="main">
+   	    <div class="row">
+   		  <div class="col-md-4 col-sm-6">
+            <div class="panel panel-default"> <!-- Why Volunteer -->
+           	  <div class="panel-heading"><a href="https://www.td.org/~/media/Images/CoP/LD/volunteer_final.png?la=en&hash=06A4A58D3D158B91968DF975F045D40D35B50811" class="pull-right">View img</a> <h4>Why Volunteer?</h4></div>
+   			  <div class="panel-body">
+                <img src="https://www.td.org/~/media/Images/CoP/LD/volunteer_final.png?la=en&hash=06A4A58D3D158B91968DF975F045D40D35B50811" alt="rock concert" class="img-circle pull-right">
+             	<div class="clearfix"></div>
+             	The Statesville High School Renaissance Foundation is a nonprofit school based program, and we proudly claim to be the only program of this kind in the county!
+	  			As a volunteer you are able to both support the staff and reward students for academic excellence and good behavior. 
+	  			It is also a great way to be involved with your local high school, its students, and its teachers!
+           	  </div>
+			</div>
+		  </div> <!-- col-md-4 col-sm-6 -->
+			
+		  <div class="col-md-4 col-sm-6">	
+		    <div class="panel panel-default"> <!-- volunteer options -->
+              <div class="panel-heading"><a href="http://www.selah.k12.wa.us/shs/VikingCrew/images/Concessions2011.jpg" class="pull-right">View img</a> <h4>How to get involved?</h4></div>
+   			  <div class="panel-body">
+                <img src="http://www.selah.k12.wa.us/shs/VikingCrew/images/Concessions2011.jpg" alt="concessions stand" class="img-circle pull-right">
+                <div class="clearfix"></div>
+                <h4>Here are some ways that you can make an impact through the Statesville High School Renaissance Foundation:</h4>
+			    <ul class="Volunteer_Options">
+				  <li> Provide baked goods and other food for teacher appreciation lunches.</li>
+				  <li> Help sell apparel and concessions at the home football games.</li>
+				  <li> Help with the final event of the year, the SHS Rock Concert. 
+				  <li> Help give out t-shirts and goodie bags to all students who make renaissance.</li>
+				  <li> And of course donations are always welcome!</li>
+			    </ul>
+           	  </div>
+		    </div>		
+  	      </div> <!-- col-md-4 col-sm-6 -->
+  	          
+  	      <div class="col-md-4 col-sm-6">
+  	        <div class="well"> <!-- listserv sign-up -->
+              <form class="form">
+                <h4>Sign-up for our listserv</h4>
+                <hr>
+                By signing up, you will receive information about upcoming events and how you can help out by volunteering!
+                <hr>
+                <div class="input-group text-center">
+                  <input type="text" class="form-control input-lg" placeholder="Enter your email address">
+                  <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+                </div>
+              </form>
+            </div>
+            <div class="well"> 
+              <form class="form-horizontal">
+                <h4>Have a suggestion? Submit it!</h4>
+               	<div class="form-group" style="padding:14px;">
+                  <textarea class="form-control" placeholder="Enter question here"></textarea>
+              	</div>
+              	<button class="btn btn-success pull-right" type="button">Post</button><ul class="list-inline"><li><a href="#"><i class="glyphicon glyphicon-align-left"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-center"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-right"></i></a></li></ul>
+              </form>
+        	</div>
+  	      </div> <!-- col-md-4 col-sm-6 -->
+  	          
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </div> <!-- cards -->
 
-<div id="volunteer_options">
-	<h1>How to get involved with the Statesville High School Renaissance Foundation</h1>
-	<ul class="Volunteer_Options">
-		<p>1. Provide baked goods and other food for teacher appreciation lunches.</p>
-		<p>2. You can help sell apparel at the home football games.</p>
-		<p>3. Help with the final event of the year which is the SHS Rock Concert.
-		T-shirts will be given to all students who make renaissance.</p>
-		<p>4. And of course donations are always welcome.</p>
-</div>
-	
-<div id="why_volunteer">
-	<h1>Why you should volunteer for the Renaissance Foundation</h1>
-	<p>The Statesville High School Renaissance Foundation is a nonprofit school based program.
-	Statesville High Schools is the only school in Iredell County with this organization.
-	As a volunteer you are able to support the staff, reward students for academic excellence,
-	and good behavior. It is also a great way to be involved with your high school student
-    and get to know the teachers.
-	</p>
-</div>
-
-<div id="footer">
+  <footer>
 	<p>Contact Information: Mary Mills-President Email:<a href="mailto:marymills@bellsouth.net">
 	marymills@bellsouth.net</a></p>
-</div>
-</body>
+  </footer>
+  
+  </div> <!-- container -->
+  <script>
+	  /* When the user clicks on the button, 
+	  toggle between hiding and showing the dropdown content */
+	  function myFunction() {
+    	  document.getElementById("myDropdown").classList.toggle("show");
+	  }
+
+	  // Close the dropdown if the user clicks outside of it
+	  window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+
+    	  var dropdowns = document.getElementsByClassName("dropdown-content");
+    	  for (var d = 0; d < dropdowns.length; d++) {
+      		var openDropdown = dropdowns[d];
+      	  if (openDropdown.classList.contains('show')) {
+        	openDropdown.classList.remove('show');
+      	  }
+    	  }
+  	    }
+	  }
+	</script>
+  </body>
 </html>
