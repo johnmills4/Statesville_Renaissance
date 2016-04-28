@@ -2,7 +2,7 @@
   font-family: Georgia, serif;
 }
 
-#footer{
+footer{
   display: flex;
   height: 10%;
   width: 100%;
@@ -30,7 +30,7 @@
   height: 100%;
 }
 
-#nav,.c2,.c3,.c4,.c5,.c6,.c7{
+nav,.c2,.c3,.c4,.c5,.c6,.c7{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
   background: #1414ff;
 }
 
-#nav{
+nav{
   flex-flow: row wrap;
 }
 .dropbtn{
@@ -140,7 +140,7 @@
   .c8{
     display: none;
   }
-  .middle{
+  aside{
     display: none;
   }
   .middle_right{
@@ -149,18 +149,19 @@
   
     @media (min-width: 46em) {
       
-      #nav{
+      nav{
         flex-flow: row wrap;
         border: ridge;
+        font-size: 12pt;
       }
-      .header{
+      header{
         display: flex;
         justify-content: center;
   	    align-items: center;
   		flex-grow: 0;
   		flex-shrink: 0;
   	  }
-      .middle{
+      aside{
  	    display: flex;
   		min-height: 500px;
   		order: 4;
@@ -171,6 +172,7 @@
   		flex-direction: column;
   		flex: 3 0 0;
 	  }
+	  h3.one{margin-top: 5%;}
 	  .menu{
         display: flex;
         flex-direction: row;
@@ -193,11 +195,9 @@
       li.menu-item{
         margin: 0 0 10px 0;
       }
-      #footer{
+      footer{
         height: 5%;
       }
-      
-      
       .c0{
         display: flex;
         width: 70%;
@@ -224,7 +224,7 @@
       .c6{
         display: none;
       }
-      aside{
+      .middle{
         display: flex;
         flex-flow: column wrap;
  	    flex: 1 0 0;

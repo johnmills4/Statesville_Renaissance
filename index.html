@@ -3,7 +3,7 @@
 <head>
 	<title>Statesville High School Renaissance</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="intitial-scale=1.0, width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -11,13 +11,13 @@
 
 <body>
   <div id="container">  
-    <div id="nav">  
+    <nav>  
       <div class="c0">
         <ul class="menu">
 		  <li><a href="index.html">Home</a></li>
+		  <li><a href="staff.html">Staff</a></li>
 		  <li><a href="apparel.html">Apparel</a></li>
-		  <li><a href="#">Volunteer</a></li>
-		  <li><a href="#">Donations</a></li>
+		  <li><a href="volunteer.html">Volunteer</a></li>
 		  <li><a href="Events.html">Events</a></li>
 	    </ul>
       </div>
@@ -26,21 +26,20 @@
         <input type="image" src="Hamburger.png" alt="dropmenu" width="60" height="60" onclick="myFunction()" class="dropbtn">
   	    <div class="dropdown-content" id="myDropdown">
       	  <a href="index.html">Home</a>
-      	  <a href="#">Staff</a>
+      	  <a href="staff.html">Staff</a>
       	  <a href="apparel.html">Apparel</a>
-     	  <a href="#">Volunteer</a>
-     	  <a href="#">Donations</a>
+     	  <a href="volunteer.html">Volunteer</a>
      	  <a href="Events.html">Events</a>
         </div>
       </div>
     	
 	  <div class="c2">
 	    <a class="button-donate" href="#">donate</a>
-	    <a class="button-order" href="#">order</a>
+	    <a class="button-order" href="order_form.pdf">order</a>
 	  </div>
-    </div>
-      
-    <div id="content">
+    </nav>
+    
+    <header>
       <div class="c3">
         <p>SHS Renaissance</p>
       </div>
@@ -48,7 +47,9 @@
       <div class="c4">
         <h3>Statesville High School Renaissance</h3>
       </div>
-      
+    </header> <!-- header -->  
+    
+    <section> <!-- used to be content -->
       <div class="c5">
         <img class="home" src="http://iss.schoolwires.com/cms/lib4/NC01000579/Centricity/Domain/3222/shslogo4.bmp"
           alt="Pictures of Statesville High School Renaissance Foundation" style="width:100%;height:100%;">
@@ -64,8 +65,8 @@
       </div>
         
         
-      <div class="middle"> 
-        <aside>
+      <aside> <!-- used to be middle -->
+        <div class="middle">
           <ul>
 		    <li class="menu-item"><b>President:</b> Mary Mills</li>
 		    <li class="menu-item"><b>Vice President:</b> Alica Medich</li>
@@ -76,50 +77,46 @@
 	      </ul>
 	      <hr>
 	      <img src="http://www.iss.k12.nc.us/cms/lib4/NC01000579/Centricity/template/globalassets/images/statesvillehigh-accent-images/SHS_mascot.png" alt="watermark" style="width:100%;height:100%;">
-        </aside>
-           
-          <div class="middle_right">
-            <img class="home" src="http://iss.schoolwires.com/cms/lib4/NC01000579/Centricity/Domain/3222/shslogo4.bmp"
-            alt="Pictures of Statesville High School Renaissance Foundation" style="width:100%;height:100%;">
+        </div> <!-- middle -->
+        
+        <div class="middle_right">
+          <img class="home" src="http://iss.schoolwires.com/cms/lib4/NC01000579/Centricity/Domain/3222/shslogo4.bmp"
+          alt="Pictures of Statesville High School Renaissance Foundation" style="width:100%;height:100%;">
           
-            <h3 class="one">
-			  Renaissance Foundation is the only national education foundation focused program created to 
-			  recognize and reward the academic achievements of students. Its primary goal is to increase 
-			  student performace help maintain teacher enthusiasm and raise the level of community participation
-			  in schools. 
-			</h3>
-          </div>
-      </div>
-      </div>
-      <div id="footer">
-        <p>Contact Information: Mary Mills-President. Email:<a href="mailto:marymills@bellsouth.net">
-	    marymills@bellsouth.net</a></p>
-      </div>
-         
-    </div>
-    
-    <script>
-	  /* When the user clicks on the button, 
-	  toggle between hiding and showing the dropdown content */
-	  function myFunction() {
-    	  document.getElementById("myDropdown").classList.toggle("show");
-	  }
+          <h3 class="one">
+		    Renaissance Foundation is the only national education foundation focused program created to 
+		    recognize and reward the academic achievements of students. Its primary goal is to increase 
+		    student performace help maintain teacher enthusiasm and raise the level of community participation
+		    in schools. 
+		  </h3>
+        </div> <!-- middle right -->
+      </aside> 
+    </section>
+    <footer>
+      <p>Contact Information: Mary Mills-President. Email:<a href="mailto:marymills@bellsouth.net">
+	  marymills@bellsouth.net</a></p>
+    </footer>
+  </div> <!-- container -->
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
 
-	  // Close the dropdown if the user clicks outside of it
-	  window.onclick = function(e) {
-        if (!e.target.matches('.dropbtn')) {
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
 
-    	  var dropdowns = document.getElementsByClassName("dropdown-content");
-    	  for (var d = 0; d < dropdowns.length; d++) {
-      		var openDropdown = dropdowns[d];
-      	  if (openDropdown.classList.contains('show')) {
-        	openDropdown.classList.remove('show');
-      	  }
-    	  }
-  	    }
-	  }
-	</script>
-  </body>
-
-
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+  }
+  </script>
+</body>
 </html>

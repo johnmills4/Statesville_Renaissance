@@ -5,7 +5,7 @@
 body {
   display: block;
   background-color: #e0e0e0;
-  margin: 1%;
+  margin: 8px;
 }
 
 #container{
@@ -102,7 +102,7 @@ article{
 .show {display:block;}
 
 p.header{
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   font-family: RobotoDraft, arial, sans-serif;
   padding: 3%;
@@ -178,7 +178,7 @@ p{text-align: center;}
   }
   .dropdown{
     height: 15%;
-    width: 50%;
+    width: 100%;
     order: 1;
   }
   .c2{
@@ -199,9 +199,14 @@ p{text-align: center;}
     width: 90%;
     order: 3;
   }
+  h3.1{font-size: 20px;}
   .c3{
     width: 100%;
     height: 100%;
+  }
+  .c4{
+    width:100%;
+    height:25%;
   }
   .cards{
     display: none;
@@ -219,17 +224,24 @@ p{text-align: center;}
     
       
 	  body {
-  		background-color:#e0e0e0;
   		-webkit-font-smoothing: antialiased;
   		font: normal 14px Roboto,arial,sans-serif;
   		margin: 3%;
 	  }
       nav{
         flex-flow: row wrap;
+        border: ridge;
+        margin-top: 8px;
+        margin-right: 6px;
+        margin-left: 6px;
+        font-family: Georgia, serif;
+        font-size: 12pt;
       }
+      p.header{font-size:30px;}
 	  .c0{
 	    display: flex;
-        width: 70%;
+        width: 100%;
+        margin-top: 1%;
         order: 1;
 	  }
 	  .dropdown {
