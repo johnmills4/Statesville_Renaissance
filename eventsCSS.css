@@ -227,6 +227,7 @@ p{text-align: center;}
   		-webkit-font-smoothing: antialiased;
   		font: normal 14px Roboto,arial,sans-serif;
   		margin: 3%;
+  		background-color: #EEEEEE !important;
 	  }
       nav{
         flex-flow: row wrap;
@@ -236,8 +237,9 @@ p{text-align: center;}
         margin-left: 6px;
         font-family: Georgia, serif;
         font-size: 12pt;
+        background-color: #FFFFFF;
       }
-      p.header{font-size:30px;}
+      p.header{font-size:50px;}
 	  .c0{
 	    display: flex;
         width: 100%;
