@@ -275,7 +275,6 @@ img.sweatshirt {
 	  
     
     @media (min-width: 65em) {
-    
       nav{
         flex-flow: row wrap;
         border: ridge;
