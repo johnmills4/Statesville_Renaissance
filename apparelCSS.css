@@ -272,7 +272,7 @@ img.sweatshirt {
 	  .i8 {
 	    width: 50%;
 	  }
-	  
+	  }
     
     @media (min-width: 65em) {
       nav{
@@ -339,5 +339,6 @@ img.sweatshirt {
 	  }
 	  .i8 {
 	    width: 25%;
+	  }
 	  }
 	  
